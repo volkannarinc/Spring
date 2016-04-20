@@ -1,0 +1,15 @@
+package com.volkannarinc;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Properties;
+import java.util.Set;
+
+public class Ogrenci {
+
+	List<?> 	ogrenciList;
+	Set<?>		ogrenciSet;
+	Map<?, ?>	ogrenciMap;
+	Properties ogrenciProp;
+	
+}

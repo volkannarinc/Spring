@@ -1,0 +1,9 @@
+package com.volkannrinc;
+
+public class Siparis {
+
+	public Siparis() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

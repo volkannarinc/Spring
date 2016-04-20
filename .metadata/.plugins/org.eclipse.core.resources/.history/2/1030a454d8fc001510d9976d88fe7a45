@@ -1,0 +1,9 @@
+package com.volkannrinc;
+
+public class Musteri {
+
+	public Musteri() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- "AUTOWİRE" ÖZNİTELİĞİNİN BİRİNCİ AMACI BEAN'LERİ OTOMATİK OLARAK BİRBİRİNE BAĞLAMAKTIR.
+		DEFAULT OLARAK "NO" DEĞERİNDEDİR. YANİ SPRİNG KONTEYNER'DA BEAN'LER ARASINDA BAĞIMLILIKLAR
+		OTOMATİK OLARAK ENJEKTE EDİLMEZ. -->
+
+	<bean id="beanCalisan" class="com.volkannarinc.Calisan" autowire="no">
+		
+		<property name="adi">
+			<value>Volkan</value>
+		</property>
+		
+		<property name="soyadi" value="Narinç"/>
+		
+		<property name="adres" ref="adres"></property>
+	</bean>
+	
+	<bean id="adres" class="com.volkannarinc.Adres">
+		<property name="tamAdresi" value="İstanbul, Sariyer"></property>
+	</bean>
+ 
+</beans>

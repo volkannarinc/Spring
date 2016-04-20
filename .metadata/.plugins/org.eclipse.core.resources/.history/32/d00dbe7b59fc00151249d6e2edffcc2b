@@ -1,0 +1,9 @@
+package com.volkannarinc;
+
+public class Ogrenci {
+
+	public Ogrenci() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

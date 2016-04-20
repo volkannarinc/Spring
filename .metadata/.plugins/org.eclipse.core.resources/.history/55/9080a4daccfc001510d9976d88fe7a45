@@ -1,0 +1,9 @@
+package com.volkannarinc;
+
+public class Calisan {
+
+	public Calisan() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="beanCalisan" class="com.volkannarinc.Calisan" autowire="default" depends-on="adres">
+		
+		<property name="adi">
+			<value>Volkan</value>
+		</property>
+		
+		<property name="soyadi" value="Narinç"/>
+		
+		<!-- 
+		<constructor-arg>
+			<ref bean="adres"/>
+		</constructor-arg>
+		 -->
+		 
+	</bean>
+	
+	<bean id="adres" class="com.volkannarinc.Adres">
+		<property name="tamAdresi" value="İstanbul, Sariyer"></property>
+	</bean>
+ 
+</beans>

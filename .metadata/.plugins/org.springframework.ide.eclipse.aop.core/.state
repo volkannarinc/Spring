@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="031_Util_Properties"/>
+<aop-project name="026_Null_Empty_DegerlerininBeanlerdeKullanimi"/>
+<aop-project name="028_Util_List"/>
+<aop-project name="014_PrototypeScope"/>
+<aop-project name="013_SingletonScope"/>
+<aop-project name="023_InnerBeans"/>
+<aop-project name="030_Util_Map"/>
+<aop-project name="033_AutoWiringBeans-ByName"/>
+<aop-project name="035_AutoWiringBeans-Default"/>
+<aop-project name="032_AutoWiringBeans-No"/>
+<aop-project name="021_P_Namespace"/>
+<aop-project name="022_C_Namespace"/>
+<aop-project name="029_Util_Set"/>
+<aop-project name="015_SpringBeanLifeCycle"/>
+<aop-project name="017_SpringBeanPostProcessors"/>
+<aop-project name="016_SpringBeanDefinitionInheritance"/>
+<aop-project name="025_KoleksiyonTiplerineReferansEnjecteEtmek"/>
+<aop-project name="020_SetterDependecyInjection"/>
+<aop-project name="010_Eclipse_plug-in_ile_SpringIDE"/>
+<aop-project name="024_InjectingCollection"/>
+<aop-project name="034_AutoWiringBeans-ByType"/>
+<aop-project name="018_ConstructorDependecyInjection"/>
+<aop-project name="019_ParametreliConstructorDependecyInjection"/>
+</aop-reference-model>

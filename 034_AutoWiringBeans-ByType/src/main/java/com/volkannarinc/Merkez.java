@@ -1,0 +1,24 @@
+package com.volkannarinc;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Merkez {
+
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("SpringBeansConfig.xml");
+		
+		//1.Yöntem : TİP DÖNÜŞÜMÜ VAR.
+		//Calisan calisan = (Calisan) context.getBean("beanCalisan");
+		
+		//2. yol : TİP DÖNÜŞÜMÜ YOK
+		Calisan calisan = context.getBean("beanCalisan", Calisan.class);
+		
+		//3. yol : TİP DÖNÜŞÜMÜ YOK VE DOĞRUDAN SINIF ADI YETERLİ
+		//Calisan calisan = context.getBean(Calisan.class);
+		
+		System.out.println(calisan.getAdres().getTamAdresi());
+		
+	}
+
+}

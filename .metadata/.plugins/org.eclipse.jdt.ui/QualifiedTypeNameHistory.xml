@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.volkannarinc.Araba"/>
+<fullyQualifiedTypeName name="com.volkannarinc.Yakit"/>
+<fullyQualifiedTypeName name="org.springframework.core.io.Resource"/>
+<fullyQualifiedTypeName name="org.springframework.core.io.FileSystemResource"/>
+<fullyQualifiedTypeName name="com.mimaraslan.Ucgen"/>
+<fullyQualifiedTypeName name="org.springframework.core.io.ClassPathResource"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.xml.XmlBeanFactory"/>
+<fullyQualifiedTypeName name="com.volkannarinc.Ucgen"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.BeanFactory"/>
+<fullyQualifiedTypeName name="com.volkannarinc.Selam"/>
+<fullyQualifiedTypeName name="com.volkannarinc.AppConfig"/>
+<fullyQualifiedTypeName name="com.volkannarinc.ISelam"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Import"/>
+<fullyQualifiedTypeName name="com.volkannarinc.config.AConfig"/>
+<fullyQualifiedTypeName name="com.volkannarinc.config.BConfig"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="com.volkannarinc.MerkezApp"/>
+<fullyQualifiedTypeName name="com.volkannarinc.config.MerkezAppConfig"/>
+<fullyQualifiedTypeName name="com.volkannarinc.A"/>
+<fullyQualifiedTypeName name="com.volkannarinc.B"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.volkannarinc.Okul"/>
+<fullyQualifiedTypeName name="com.volkannarinc.Adres"/>
+<fullyQualifiedTypeName name="com.volkannarinc.Calisan"/>
+<fullyQualifiedTypeName name="com.volkannrinc.Siparis"/>
+<fullyQualifiedTypeName name="com.volkannrinc.Musteri"/>
+<fullyQualifiedTypeName name="com.volkannarinc.Ogrenci"/>
+<fullyQualifiedTypeName name="org.springframework.context.ConfigurableApplicationContext"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="com.volkannarinc.Koleksiyonlar"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.volkannarinc.Personel"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.lang.Appendable"/>
+<fullyQualifiedTypeName name="com.volkannarinc.Sehir"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.volkannarinc.Ayar"/>
+</qualifiedTypeNameHistroy>

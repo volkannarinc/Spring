@@ -1,0 +1,26 @@
+package com.volkannarinc;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Merkez {
+
+	public static void main(String[] args) {
+		ApplicationContext context = 
+				new ClassPathXmlApplicationContext("SpringBeansConfig.xml");
+		
+		Personel personel = context.getBean("BeanPersonel", Personel.class);
+		System.out.println("ADI		:"
+						+ "\n SOYADI		:"
+						+ "\n GÖREVİ		:"
+						+ "\n DOĞUM YILI	:"
+						+ "\n MAAŞI		:"
+						+ "\n EHLİYET		:"
+						+ "\n MEDENİ HALİ	:"
+						+ "\n ANNE ADI		:"
+						+ "\n BABA ADI		:"
+						+ "\n TELEFON NO	:"
+						+ "\n ADRES		:");
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.volkannarinc;
+
+import java.util.List;
+import java.util.Set;
+
+public class Personel {
+	
+	private Set<?> setimiz;
+	
+	public List<?> getListemiz() {
+		return listemiz;
+	}
+
+	public void setListemiz(List<?> listemiz) {
+		this.listemiz = listemiz;
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "PERSONELLER	:	" + getListemiz();
+	}
+	
+	
+	
+}

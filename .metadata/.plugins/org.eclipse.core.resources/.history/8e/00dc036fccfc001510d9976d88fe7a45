@@ -1,0 +1,9 @@
+package com.volkannarinc;
+
+public class Adres {
+
+	public Adres() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

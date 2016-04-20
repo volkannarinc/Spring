@@ -1,0 +1,24 @@
+package com.volkannrinc;
+
+public class Siparis {
+
+	int tutar;
+	
+	public Siparis() {
+		System.out.println("Müşteri sınıfının yapılandırıcısı.");
+	}
+
+	public int getTutar() {
+		return tutar;
+	}
+
+	public void setTutar(int tutar) {
+		this.tutar = tutar;
+	}
+	
+	public void toplamSonucuA() {
+		System.out.println("Siparis sınıfındaki toplamSonucuAl metodu.");
+		System.out.println("Toplam :" + getTutar());
+	}
+
+}

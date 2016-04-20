@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="BeanOgrenci" class="com.volkannarinc.Ogrenci">
+		<property name="adi" value="Volkan"></property>
+		<property name="soyadi" value="NArinç"></property>
+		<property name="bolumu" value="Bilgisayar Mühendisliği"></property>
+		<property name="yasi" value="21"></property>
+	</bean>
+	
+	<bean id="BeanKolaksiyonlar" class="com.volkannarinc.Koleksiyonlar">
+		
+		<!-- Java.util.List -->
+		<property name="list">
+			<list>
+				<value>571</value>
+				<ref bean="BeanOgrenci"/>
+				<bean class="com.volkannarinc.Ogrenci">
+					<property name="adi" value="Volkan"></property>
+					<property name="soyadi" value="NArinç"></property>
+					<property name="bolumu" value="Bilgisayar Mühendisliği"></property>
+					<property name="yasi" value="21"></property>
+				</bean>
+			</list>
+		</property>
+		
+		
+		<!-- Java.util.Set -->
+		<property name="set">
+			<set>
+				<value>632</value>
+				<ref bean="BeanOgrenci"/>
+				<bean class="com.volkannarinc.Ogrenci">
+					<property name="adi" value="Mehmet"></property>
+					<property name="soyadi" value="Keskin"></property>
+					<property name="bolumu" value="Bilgisayar Mühendisliği"></property>
+					<property name="yasi" value="22"></property>
+				</bean>
+			</set>
+		</property>
+		
+		
+		<!-- Java.util.Map -->
+		<property name="map">
+			<map>
+				<entry key="Vaadin" value="Ömer Narman"></entry>
+				<entry key="JSP" value-ref="BeanOgrenci"></entry>
+				<entry key="ZK">
+					<bean class="com.volkannarinc.Ogrenci">
+						<property name="adi" value="Volkan"></property>
+						<property name="soyadi" value="NArinç"></property>
+						<property name="bolumu" value="Bilgisayar Mühendisliği"></property>
+						<property name="yasi" value="21"></property>
+					</bean>
+				</entry>
+			</map>
+		</property>
+		
+		
+		<!-- Java.util.Properties -->
+		<property name="properties">
+			<props>
+				<prop key="PrimeFaces">Bilal Maskan</prop>
+				<prop key="JSF">Tevfik Öztürk</prop>
+				<prop key="Hibernate">Fırat Akyol</prop>
+				<prop key="Spring">Enes Ataş</prop>				
+			</props>
+		</property>		
+		
+	</bean>
+	
+</beans>
